@@ -7,6 +7,7 @@ public class NetworkManager : MonoBehaviour {
 	private const string typeName = "EstrategiaiGenial2017";
 	private const string gameName = "Habitacion";
 	private HostData[] hostlist ();
+
 	private void RefreshHostList()
 	{
 		MasterServer.RequestHostList (typeName);
